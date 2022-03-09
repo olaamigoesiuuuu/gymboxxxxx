@@ -1,0 +1,232 @@
+body{
+  background-color: black;
+  color: white;
+
+  font-family: Georgia, Garamond, sans-serif;
+  font-size:16px;
+  font-weight:normal;
+
+  font: normal 16px Georgia, Garamond, sans-serif;
+
+  line-height: 1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom:20px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 80%;
+}
+
+.content {
+  position:absolute;
+  width:80%;
+  z-index:-1;
+  padding-bottom:50px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+
+.box-image {
+  margin-top:20px;
+}
+
+.box-text {
+  margin-top:20px;
+  text-align:center;
+  border:2px solid;
+  border-color:red;
+}
+
+.box-text h3{
+  color: red;
+}
+
+.box-sub-header{
+  margin-top:20px;
+  background-color:red;
+  color: white;
+  padding: 20px;
+  text-align:center;
+}
+
+.box-map{
+  display: flex;
+  align-items: center;
+}
+
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:100%;
+}
+
+iframe {
+  width:100%;
+  height:500px;
+}
+
+.box-promotions{
+  padding:6.5%;
+  background-color:white;
+  overflow:hidden;
+  border:2px solid;
+  border-color:red;
+}
+
+.promotions {
+  inline-size: 26.5%;
+  overflow-wrap: break-word;
+  float:left;
+  background-color:red;
+  border: 1px red solid;
+  border-radius:25px;
+}
+
+#promotions-left{
+  margin-left:19.5%;
+  padding:1.5%;
+  
+}
+
+#promotions-center{
+  margin-left:1.5%;
+  margin-right:1.5%;
+  padding:1.5%;
+}
+
+#promotions-right{
+  margin-right:19.5%;
+  padding:1.5%;
+}
+
+.promotion-title {
+  color:white;
+  font-size:1.25em;
+  font-weight:bolder;
+}
+
+.promotion-text {
+  color:white;
+  font-size:0.75em;
+}
+
+.staff-img{
+  width:100%;
+}
+
+
+#promotions-lefty{
+  margin-left:1.5%;
+  padding:1.5%;
+margin-top:1.5%
+  
+}
+
+#promotions-centery{
+  margin-left:1.5%;
+  padding:1.5%;
+margin-top:1.5%
+  
+}
+
+#promotions-righty{
+  margin-left:1.5%;
+  padding:1.5%;
+margin-top:1.5%
+  
+}
+
+.box-form {
+  margin-top:20px;
+}
+
+form {
+  border:2px solid;
+  border-color:#e64343;
+  border-radius:25px;
+  padding:2%;
+}
+
+label {
+  margin:2%;
+  color:#e64343;
+}
+
+input, textarea {
+  margin:2%;
+  border-radius:10px;
+}
+
+textarea {
+  width: 96%;
+  height: 150px;
+}
+
+button {
+  margin-left:90%;
+  background-color:#e64343;
+  color:white;
+  padding:2%;
+  border-color:white;
+  border-radius:10px;
+}
+
+button:hover {
+  background-color:white;
+  color:#e64343;
+}
+
+table {
+  width:80%;
+}
+
+th {
+  padding-top:20px;
+  text-align:left;
+  color:#e64343;
+}
+
+td {
+  font-size:0.60em;
+}
+

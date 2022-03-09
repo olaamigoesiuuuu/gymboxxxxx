@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<title>Home</title>
+  		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="topnav" id="navbar">
+  				<a class="active" href="#home">Home</a>
+  				<a href="facilities.html">Facilities</a>
+  				<a href="staff.html">Staff</a>
+  				<a href="contact.html">Contact</a>
+			</div>
+			<div class="content">
+			<div class="box-image">
+				<img src="bedokpointgymboxx.jpg" alt="Home Page Image" width="100%">
+			</div>
+			<div class="box-text">
+				<h3>Bedok (Bedok Point)</h4>
+				<h6>799 New Upper Changi Road, #04-08/19, Singapore 467351</h6>
+				<h6>Bedok, East</h6>
+				<h6>+65 6873 0286</h6>
+				<h6>Open 24/7 to Members</h6>
+			</div>
+			<div class="box-sub-header">
+				<h1>Location</h1>
+			</div>
+			<div class="box-map">
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7512630720666!2d103.93007481475398!3d1.325148699033505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da22b4a368bc13%3A0xa4a3549a9450aa27!2sGYMMBOXX!5e0!3m2!1sen!2ssg!4v1646847450624!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="box-sub-header">
+				<h1>Walkthrough</h1>
+			</div>
+			<div class="box-map">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/6jGCih1UoeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="box-sub-header">
+				<h1>Promotion</h1>
+			</div>
+			<div class="box-promotions">
+				<div class="promotions" id="promotions-left">
+					<p class="promotion-title">Refer your friend!</p>
+					<p class="promotion-text">Get up to 4 weeks membership extension for both you and your gym buddy with the new referral program!</p>
+				</div>
+				<div class="promotions" id="promotions-center">
+					<p class="promotion-title">Birthday Promo!</p>
+					<p class="promotion-text">Sign up or renew your membership on your birthday month and receive additional 14 days!</p>
+				
+			</div>
+			</div>
+		</div>
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+  			if (window.pageYOffset >= sticky) {
+    				navbar.classList.add("sticky")
+  			} else {
+    				navbar.classList.remove("sticky");
+  			}
+		}
+	</script>
+	</body>
+</html>
